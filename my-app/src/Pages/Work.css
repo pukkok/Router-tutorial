@@ -1,0 +1,16 @@
+.input-box{
+    border-bottom: 2px solid #d5d5d5;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+input{
+    all: unset;
+    width: 200px;
+    height: 30px;
+}
+
+.input-box span{
+    cursor: pointer;
+}

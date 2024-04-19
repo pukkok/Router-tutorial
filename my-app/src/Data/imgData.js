@@ -1,0 +1,25 @@
+const imgs = [
+    {id: 'a1', src: 'less.jpg', name: 'less'},
+    {id: 'a2', src: 'kizu.jpg', name: 'kizu'},
+    {id: 'a3', src: 'hex.jpg', name: 'hex'},
+    {id: 'a4', src: 'tind.jpg', name: 'tind'},
+    {id: 'a5', src: 'coil.jpg', name: 'coil'},
+    {id: 'a6', src: 'dots.jpg', name: 'The Dots'},
+    {id: 'a7', src: 'pinch.jpg', name: 'pinch'},
+    {id: 'a8', src: 'stripes.jpg', name: 'stripes'},
+    {id: 'a9', src: 'scoop.jpg', name: 'scoop'},
+    {id: 'a10', src: 'fjell.jpg', name: 'fjell'},
+    {id: 'a11', src: 'bloc.jpg', name: 'bloc'},
+    {id: 'a12', src: 'con_01.jpg', name: 'con'},
+    {id: 'a13', src: 'kvart.jpg', name: 'kvart'},
+    {id: 'a14', src: 'clover.jpg', name: 'clover'},
+    {id: 'a15', src: 'undring.jpg', name: 'undring'},
+    {id: 'a16', src: 'copenhagen-chair.jpg', name: 'Copenhagen Chair'},
+    {id: 'a17', src: 'corner.jpg', name: 'corner'},
+    {id: 'a18', src: 'clint.jpg', name: 'clint'},
+    {id: 'a19', src: 'nunu.jpg', name: 'nunu'},
+    {id: 'a20', src: 'myk.jpg', name: 'myk'},
+    {id: 'a21', src: 'bone.jpg', name: 'bone'},
+]
+
+export default imgs

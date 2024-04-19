@@ -1,0 +1,27 @@
+.About{
+    display: flex;
+    gap: 50px;
+}
+
+.About .img-box{
+    height: fit-content;
+}
+
+.About .text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.About .text-box .comment{
+    padding-bottom: 5%;
+}
+
+.About .text-box .comment p:nth-child(1){
+    padding-bottom: 20px;
+}
+
+.About .info p:not(:nth-last-child(1)){
+    padding-bottom: 20px;
+}
+
