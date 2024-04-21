@@ -2,9 +2,9 @@ import React from "react";
 import './Product.css'
 import Container from "../Component/Container";
 
-function Product( {item}) {
+function Product( {item} ) {
     return(
-        <>
+        <div className="Product">
             <div className="main">
                 <img src={`product-img/${item.product}/${item.main}`}/>
             </div>
@@ -18,13 +18,11 @@ function Product( {item}) {
                 <p>{item.details}</p>
             </div>
             <div className="sub-img-box">
-                <div>
                     {item.sub.map((image, id)=>{
-                        return <img key={id} src={`product-img/${item.product}/${image}`}/>
+                        return <div key={id}><img src={`product-img/${item.product}/${image}`}/></div>
                     })}
-                </div>
             </div>
-        </>
+        </div>
     )
 }
 
